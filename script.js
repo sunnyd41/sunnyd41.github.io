@@ -8,4 +8,6 @@ $(document).ready(function() {
 	})
 </script>
 
-
+$("p").on("swipe",function(){
+  $("span").text("Swipe detected!");
+});
